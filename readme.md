@@ -30,7 +30,7 @@ The server provides a single API endpoint `/files` that accepts a query paramete
 
 To install and run the project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/dardale11/file-viewer.git`
+1. Clone the repository: `git clone https://github.com/dardale11/FileTree.git`
 2. Change to the client directory: `cd client/file-viewer`
 3. Install dependencies: `npm install`
 4. Start the client: `ng serve`

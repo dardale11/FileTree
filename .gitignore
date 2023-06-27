@@ -1,0 +1,13 @@
+# Ignore client dependencies
+client/file-viewer/node_modules
+client/file-viewer/dist
+client/file-viewer/.angular
+
+# Ignore server dependencies
+server/node_modules
+server/.env
+
+# Ignore editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
