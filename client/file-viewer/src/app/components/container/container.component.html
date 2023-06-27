@@ -1,4 +1,11 @@
 <div class="container">
-  <app-search-bar (onSearch)="handleSearch($event)"></app-search-bar>
-  <app-tree-view [treeData]="data"></app-tree-view>
+  <app-search-bar
+    [isLoading]="isLoading"
+    (onSearch)="handleSearch($event)"
+  ></app-search-bar>
+  <app-tree-view *ngIf="data.length > 0" [treeData]="data"></app-tree-view>
+  <div class="no-results-text" *ngIf="data.length == 0">
+    {{ noResultsText }}
+  </div>
+  <mat-spinner *ngIf="isLoading" diameter="35" class="spinner"></mat-spinner>
 </div>

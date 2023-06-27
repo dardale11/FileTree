@@ -1,0 +1,112 @@
+[
+  {
+    "type": "file",
+    "name": "lion"
+  },
+  {
+    "type": "file",
+    "name": "tiger"
+  },
+  {
+    "type": "file",
+    "name": "elephant"
+  },
+  {
+    "type": "folder",
+    "name": "mammals",
+    "children": [
+      {
+        "type": "file",
+        "name": "dog"
+      },
+      {
+        "type": "file",
+        "name": "cat"
+      },
+      {
+        "type": "folder",
+        "name": "primates",
+        "children": [
+          {
+            "type": "file",
+            "name": "chimpanzee"
+          },
+          {
+            "type": "file",
+            "name": "gorilla"
+          },
+          {
+            "type": "folder",
+            "name": "lemurs",
+            "children": [
+              {
+                "type": "file",
+                "name": "ring-tailed lemur"
+              },
+              {
+                "type": "file",
+                "name": "indri"
+              },
+              {
+                "type": "folder",
+                "name": "tarsiers",
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "pygmy tarsier"
+                  },
+                  {
+                    "type": "file",
+                    "name": "Philippine tarsier"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "aquatic mammals",
+        "children": [
+          {
+            "type": "file",
+            "name": "dolphin"
+          },
+          {
+            "type": "file",
+            "name": "whale"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "birds",
+    "children": [
+      {
+        "type": "file",
+        "name": "eagle"
+      },
+      {
+        "type": "file",
+        "name": "owl"
+      },
+      {
+        "type": "folder",
+        "name": "water birds",
+        "children": [
+          {
+            "type": "file",
+            "name": "duck"
+          },
+          {
+            "type": "file",
+            "name": "swan"
+          }
+        ]
+      }
+    ]
+  }
+]

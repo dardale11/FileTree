@@ -16,7 +16,6 @@ input {
     padding-top: 2rem;
     padding-bottom: 2rem;
     border-bottom: solid 10px rgba(27, 27, 154, 0.729);
-
     display: flex;
     justify-content: center;
   }

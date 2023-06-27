@@ -1,109 +1,3453 @@
 [
   {
-    "type": "file",
-    "name": "lion"
-  },
-  {
-    "type": "file",
-    "name": "tiger"
-  },
-  {
-    "type": "file",
-    "name": "elephant"
-  },
-  {
     "type": "folder",
-    "name": "mammals",
+    "name": "ng-web-security-analytics",
     "children": [
       {
         "type": "file",
-        "name": "dog"
+        "name": ".browserslistrc"
       },
       {
         "type": "file",
-        "name": "cat"
+        "name": ".editorconfig"
+      },
+      {
+        "type": "file",
+        "name": ".gitignore"
+      },
+      {
+        "type": "file",
+        "name": ".npmrc"
+      },
+      {
+        "type": "file",
+        "name": ".versionconfig"
+      },
+      {
+        "type": "file",
+        "name": "README.md"
+      },
+      {
+        "type": "file",
+        "name": "angular.json"
+      },
+      {
+        "type": "file",
+        "name": "karma.conf.js"
+      },
+      {
+        "type": "file",
+        "name": "package.json"
+      },
+      {
+        "type": "file",
+        "name": "tree"
+      },
+      {
+        "type": "file",
+        "name": "tsconfig.app.json"
+      },
+      {
+        "type": "file",
+        "name": "tsconfig.json"
+      },
+      {
+        "type": "file",
+        "name": "tsconfig.spec.json"
+      },
+      {
+        "type": "file",
+        "name": "tslint.json"
+      },
+      {
+        "type": "file",
+        "name": "yarn.lock"
       },
       {
         "type": "folder",
-        "name": "primates",
+        "name": "src",
         "children": [
           {
             "type": "file",
-            "name": "chimpanzee"
+            "name": "ag-grid-license.ts"
           },
           {
             "type": "file",
-            "name": "gorilla"
+            "name": "favicon.ico"
+          },
+          {
+            "type": "file",
+            "name": "index.html"
+          },
+          {
+            "type": "file",
+            "name": "main.ts"
+          },
+          {
+            "type": "file",
+            "name": "manifest.json"
+          },
+          {
+            "type": "file",
+            "name": "polyfills.ts"
+          },
+          {
+            "type": "file",
+            "name": "sql"
+          },
+          {
+            "type": "file",
+            "name": "sql.template"
+          },
+          {
+            "type": "file",
+            "name": "styles.scss"
+          },
+          {
+            "type": "file",
+            "name": "template.html"
+          },
+          {
+            "type": "file",
+            "name": "test.ts"
           },
           {
             "type": "folder",
-            "name": "lemurs",
+            "name": "app",
             "children": [
               {
                 "type": "file",
-                "name": "ring-tailed lemur"
+                "name": "app.component.html"
               },
               {
                 "type": "file",
-                "name": "indri"
+                "name": "app.component.scss"
+              },
+              {
+                "type": "file",
+                "name": "app.component.spec.ts"
+              },
+              {
+                "type": "file",
+                "name": "app.component.ts"
+              },
+              {
+                "type": "file",
+                "name": "app.module.ts"
+              },
+              {
+                "type": "file",
+                "name": "auto.ts"
+              },
+              {
+                "type": "file",
+                "name": "ng-zorro-antd.module.ts"
               },
               {
                 "type": "folder",
-                "name": "tarsiers",
+                "name": "components",
                 "children": [
                   {
                     "type": "file",
-                    "name": "pygmy tarsier"
+                    "name": "components.ts"
+                  },
+                  {
+                    "type": "folder",
+                    "name": "add-dimension-modal",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "add-dimension-modal.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "add-dimension-modal.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "add-dimension-modal.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "add-dimension-modal.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "add-filter-modal",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "add-filter-modal.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "add-filter-modal.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "add-filter-modal.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "add-filter-modal.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "add-operators-modal",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "add-operators-modal.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "add-operators-modal.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "add-operators-modal.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "add-operators-modal.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "add-widget-modal",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "add-widget-modal.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "add-widget-modal.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "add-widget-modal.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "add-widget-modal.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "app-layout",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "app-layout.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "app-layout.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "app-layout.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "app-layout.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "banner",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "banner.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "banner.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "banner.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "banner.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "case-sensitive-dropdown",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "case-sensitive-dropdown.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "case-sensitive-dropdown.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "case-sensitive-dropdown.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "case-sensitive-dropdown.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "dashed-text",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "dashed-text.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "dashed-text.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "dashed-text.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "dashed-text.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "dashed-textarea",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "dashed-textarea.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "dashed-textarea.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "dashed-textarea.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "dashed-textarea.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "favorite",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "favorite.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "favorite.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "favorite.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "favorite.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "filters",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "filters.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters.component.ts"
+                      },
+                      {
+                        "type": "folder",
+                        "name": "components",
+                        "children": [
+                          {
+                            "type": "folder",
+                            "name": "filter",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "filter.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "filter.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "filter.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "filter.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "filter-operators-values",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "filter-operators-values.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "filter-operators-values.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "filter-operators-values.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "filter-operators-values.component.ts"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "filters-minimize-view",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "filters-minimize-view.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters-minimize-view.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters-minimize-view.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters-minimize-view.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "filters-minimize-view-buttons",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "filters-minimize-view-buttons.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters-minimize-view-buttons.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters-minimize-view-buttons.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters-minimize-view-buttons.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "gridster-wrapper",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "gridster-wrapper.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "gridster-wrapper.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "gridster-wrapper.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "gridster-wrapper.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "icon",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "icon.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "icon.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "icon.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "icon.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "icon-button",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "icon-button.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "icon-button.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "icon-button.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "icon-button.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "large-switch",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "large-switch.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "large-switch.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "large-switch.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "large-switch.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "list-icons",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "list-icons.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "list-icons.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "list-icons.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "list-icons.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "manage-saved-view",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "manage-saved-view.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "manage-saved-view.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "manage-saved-view.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "manage-saved-view.component.ts"
+                      },
+                      {
+                        "type": "folder",
+                        "name": "components",
+                        "children": [
+                          {
+                            "type": "folder",
+                            "name": "manage-saved-view-actions-renderer",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "manage-saved-view-actions-renderer.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "manage-saved-view-actions-renderer.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "manage-saved-view-actions-renderer.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "manage-saved-view-actions-renderer.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "manage-saved-view-info-renderer",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "manage-saved-view-info-renderer.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "manage-saved-view-info-renderer.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "manage-saved-view-info-renderer.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "manage-saved-view-info-renderer.component.ts"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "menu",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "menu.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "menu.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "menu.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "menu.component.ts"
+                      },
+                      {
+                        "type": "folder",
+                        "name": "components",
+                        "children": [
+                          {
+                            "type": "folder",
+                            "name": "settings",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "settings.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "settings.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "settings.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "settings.component.ts"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "mode-indicator",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "mode-indicator.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "mode-indicator.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "mode-indicator.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "mode-indicator.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "notifications-list",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "notifications-list.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "notifications-list.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "notifications-list.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "notifications-list.component.ts"
+                      },
+                      {
+                        "type": "folder",
+                        "name": "components",
+                        "children": [
+                          {
+                            "type": "folder",
+                            "name": "notification",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "notification.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "notification-config",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "notification-config.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification-config.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification-config.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification-config.component.ts"
+                              },
+                              {
+                                "type": "folder",
+                                "name": "components",
+                                "children": [
+                                  {
+                                    "type": "folder",
+                                    "name": "notification-config-filters",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "notification-config-filters.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "notification-config-filters.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "notification-config-filters.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "notification-config-filters.component.ts"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "folder",
+                                    "name": "notification-config-settings",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "notification-config-settings.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "notification-config-settings.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "notification-config-settings.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "notification-config-settings.component.ts"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "folder",
+                                    "name": "notification-config-threshold",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "notification-config-threshold.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "notification-config-threshold.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "notification-config-threshold.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "notification-config-threshold.component.ts"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "notification-details",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "notification-details.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification-details.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification-details.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification-details.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "notification-legend",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "notification-legend.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification-legend.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification-legend.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification-legend.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "notification-quota",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "notification-quota.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification-quota.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification-quota.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "notification-quota.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "search",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "search.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "search.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "search.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "search.component.ts"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "operator-icon",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "operator-icon.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "operator-icon.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "operator-icon.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "operator-icon.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "operators-dropdown",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "operators-dropdown.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "operators-dropdown.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "operators-dropdown.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "operators-dropdown.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "priority",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "priority.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "priority.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "priority.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "priority.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "screen-sizer",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "screen-sizer.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "screen-sizer.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "screen-sizer.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "screen-sizer.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "spinner",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "spinner.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "spinner.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "spinner.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "spinner.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "starts-when",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "starts-when.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "starts-when.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "starts-when.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "starts-when.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "tag-input",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "tag-input.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "tag-input.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "tag-input.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "tag-input.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "tbd",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "tbd.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "tbd.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "tbd.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "tbd.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "toast",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "toast.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "toast.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "toast.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "toast.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "view-change-indicator",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "view-change-indicator.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "view-change-indicator.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "view-change-indicator.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "view-change-indicator.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "view-selector",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "view-selector.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "view-selector.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "view-selector.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "view-selector.component.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "widget",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "widget.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "widget.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "widget.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "widget.component.ts"
+                      },
+                      {
+                        "type": "folder",
+                        "name": "components",
+                        "children": [
+                          {
+                            "type": "folder",
+                            "name": "additional-group-by-modal",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "additional-group-by-modal.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "additional-group-by-modal.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "additional-group-by-modal.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "additional-group-by-modal.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "chart",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "chart.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "chart.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "chart.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "chart.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "dimensions-selector",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "dimensions-selector.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "dimensions-selector.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "dimensions-selector.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "dimensions-selector.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "sample",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "sample.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "sample-client-info",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "sample-client-info.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-client-info.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-client-info.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-client-info.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "sample-export",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "sample-export.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-export.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-export.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-export.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "sample-headers",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "sample-headers.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-headers.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-headers.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-headers.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "sample-rules",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "sample-rules.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-rules.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-rules.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-rules.component.ts"
+                              },
+                              {
+                                "type": "folder",
+                                "name": "components",
+                                "children": [
+                                  {
+                                    "type": "folder",
+                                    "name": "action-indicator",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "action-indicator.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "action-indicator.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "action-indicator.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "action-indicator.component.ts"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "folder",
+                                    "name": "bot",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "bot.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "bot.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "bot.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "bot.component.ts"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "folder",
+                                    "name": "custom",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "custom.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "custom.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "custom.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "custom.component.ts"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "folder",
+                                    "name": "dos",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "dos.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "dos.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "dos.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "dos.component.ts"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "folder",
+                                    "name": "malware",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "malware.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "malware.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "malware.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "malware.component.ts"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "folder",
+                                    "name": "network-list",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "network-list.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "network-list.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "network-list.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "network-list.component.ts"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "folder",
+                                    "name": "reputation",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "reputation.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "reputation.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "reputation.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "reputation.component.ts"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "folder",
+                                    "name": "unclassified",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "unclassified.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "unclassified.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "unclassified.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "unclassified.component.ts"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "folder",
+                                    "name": "user-risk",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "user-risk.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "user-risk.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "user-risk.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "user-risk.component.ts"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "folder",
+                                    "name": "waf",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "waf.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "waf.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "waf.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "waf.component.ts"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "sample-title",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "sample-title.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-title.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-title.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "sample-title.component.ts"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "table",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "table.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "table.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "table.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "table.component.ts"
+                              },
+                              {
+                                "type": "folder",
+                                "name": "components",
+                                "children": [
+                                  {
+                                    "type": "folder",
+                                    "name": "chart-wrapper-renderer",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "chart-wrapper-renderer.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "chart-wrapper-renderer.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "chart-wrapper-renderer.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "chart-wrapper-renderer.component.ts"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "folder",
+                                    "name": "popover-wrapper-renderer",
+                                    "children": [
+                                      {
+                                        "type": "file",
+                                        "name": "popover-wrapper-renderer.component.html"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "popover-wrapper-renderer.component.scss"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "popover-wrapper-renderer.component.spec.ts"
+                                      },
+                                      {
+                                        "type": "file",
+                                        "name": "popover-wrapper-renderer.component.ts"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "folder",
+                            "name": "widget-options-modal",
+                            "children": [
+                              {
+                                "type": "file",
+                                "name": "widget-options-modal.component.html"
+                              },
+                              {
+                                "type": "file",
+                                "name": "widget-options-modal.component.scss"
+                              },
+                              {
+                                "type": "file",
+                                "name": "widget-options-modal.component.spec.ts"
+                              },
+                              {
+                                "type": "file",
+                                "name": "widget-options-modal.component.ts"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "widget-wrapper",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "widget-wrapper.component.html"
+                      },
+                      {
+                        "type": "file",
+                        "name": "widget-wrapper.component.scss"
+                      },
+                      {
+                        "type": "file",
+                        "name": "widget-wrapper.component.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "widget-wrapper.component.ts"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "name": "constants",
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "ag-grid.ts"
                   },
                   {
                     "type": "file",
-                    "name": "Philippine tarsier"
+                    "name": "consts.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "countries.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "dimensions-menu.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "dimensions.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "graph-colors.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "groupBy.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "heavy-operators.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "notifications-options.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sample-data.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "settings.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "supported-by-alerts.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "table-headers.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "unique-count.ts"
+                  },
+                  {
+                    "type": "folder",
+                    "name": "filters",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "allowd-filters.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "default-value-mapping.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters-menu.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "operators.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "ipr",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "ipr-indicator.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "ipr-risk.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "ipr-score-status.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "ipr-user-risk-level.ts"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "name": "filters",
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "filters.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "search-item.pipe.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "search-item.pipe.ts"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "name": "interceptor",
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "cache.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cache.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "create-saved-views.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "create-saved-views.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "dimension-additionalgroupby.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "dimension-additionalgroupby.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "dimension.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "dimension.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "events.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "events.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "get-saved-views.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "get-saved-views.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "http-error.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "http-error.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "http-xsrf.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "http-xsrf.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "interceptors.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mainchart-additionalgroupby.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mainchart-additionalgroupby.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mainchart.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mainchart.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "metadata.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "metadata.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "notifications.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "notifications.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "requestid.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "requestid.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sampledata.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sampledata.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "source.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "source.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "templates.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "templates.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "utils.interceptor.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "valuemapping.interceptor.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "valuemapping.interceptor.ts"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "name": "middleware",
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "middlewares.ts"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "name": "services",
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "utils.service.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "utils.service.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "validation.service.spec.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "validation.service.ts"
+                  }
+                ]
+              },
+              {
+                "type": "folder",
+                "name": "store",
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "app-state.model.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "effects.ts"
+                  },
+                  {
+                    "type": "file",
+                    "name": "reducers.ts"
+                  },
+                  {
+                    "type": "folder",
+                    "name": "config",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "config-state.model.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "config.actions.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "config.effects.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "config.reducer.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "config.service.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "config.service.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "filters",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "filters-state.model.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters.actions.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters.effects.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters.reducer.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters.service.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "filters.service.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "messages",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "messages-state.model.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "messages.actions.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "messages.effects.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "messages.reducer.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "notifications",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "notifications-state.model.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "notifications.actions.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "notifications.effects.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "notifications.reducer.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "notifications.service.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "notifications.service.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "saved-views",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "saved-views-state.model.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "saved-views.actions.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "saved-views.effects.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "saved-views.reducer.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "saved-views.service.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "saved-views.service.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "settings",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "settings-state.model.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "settings.actions.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "settings.effects.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "settings.reducer.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "settings.service.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "settings.service.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "views",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "views-state.model.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "views.actions.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "views.effects.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "views.reducer.ts"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "folder",
+                    "name": "widget",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "export.service.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "export.service.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "widget-item.model.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "widget.actions.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "widget.effects.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "widget.reducer.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "widget.service.spec.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "widget.service.ts"
+                      },
+                      {
+                        "type": "file",
+                        "name": "widgets-state.model.ts"
+                      }
+                    ]
                   }
                 ]
               }
             ]
-          }
-        ]
-      },
-      {
-        "type": "folder",
-        "name": "aquatic mammals",
-        "children": [
-          {
-            "type": "file",
-            "name": "dolphin"
           },
           {
-            "type": "file",
-            "name": "whale"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "folder",
-    "name": "birds",
-    "children": [
-      {
-        "type": "file",
-        "name": "eagle"
-      },
-      {
-        "type": "file",
-        "name": "owl"
-      },
-      {
-        "type": "folder",
-        "name": "water birds",
-        "children": [
-          {
-            "type": "file",
-            "name": "duck"
+            "type": "folder",
+            "name": "assets",
+            "children": [
+              {
+                "type": "file",
+                "name": ".gitkeep"
+              },
+              {
+                "type": "file",
+                "name": "flag-icons.css"
+              },
+              {
+                "type": "folder",
+                "name": "flags",
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "ac.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ad.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ae.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "af.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ag.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ai.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "al.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "am.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ao.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "aq.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ar.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "as.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "at.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "au.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "aw.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ax.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "az.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ba.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bb.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bd.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "be.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bf.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bg.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bh.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bi.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bj.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bl.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bm.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bn.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bo.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bq.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "br.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bs.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bt.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bv.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bw.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "by.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "bz.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ca.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cc.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cd.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cefta.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cf.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cg.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ch.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ci.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ck.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cl.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cm.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cn.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "co.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cp.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cr.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cu.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cv.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cw.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cx.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cy.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "cz.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "de.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "dg.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "dj.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "dk.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "dm.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "do.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "dz.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ea.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ec.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ee.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "eg.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "eh.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "er.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "es-ct.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "es-ga.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "es.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "et.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "eu.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "fi.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "fj.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "fk.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "fm.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "fo.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "fr.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ga.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gb-eng.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gb-nir.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gb-sct.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gb-wls.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gb.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gd.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ge.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gf.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gg.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gh.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gi.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gl.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gm.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gn.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gp.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gq.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gr.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gs.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gt.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gu.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gw.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "gy.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "hk.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "hm.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "hn.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "hr.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ht.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "hu.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ic.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "id.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ie.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "il.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "im.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "in.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "io.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "iq.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ir.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "is.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "it.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "je.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "jm.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "jo.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "jp.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ke.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "kg.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "kh.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ki.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "km.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "kn.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "kp.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "kr.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "kw.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ky.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "kz.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "la.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "lb.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "lc.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "li.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "lk.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "lr.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ls.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "lt.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "lu.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "lv.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ly.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ma.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mc.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "md.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "me.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mf.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mg.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mh.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mk.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ml.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mm.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mn.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mo.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mp.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mq.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mr.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ms.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mt.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mu.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mv.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mw.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mx.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "my.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "mz.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "na.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "nc.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ne.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "nf.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ng.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ni.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "nl.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "no.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "np.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "nr.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "nu.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "nz.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "om.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "pa.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "pe.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "pf.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "pg.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ph.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "pk.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "pl.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "pm.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "pn.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "pr.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ps.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "pt.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "pw.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "py.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "qa.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "re.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ro.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "rs.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ru.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "rw.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sa.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sb.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sc.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sd.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "se.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sg.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sh.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "si.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sj.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sk.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sl.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sm.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sn.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "so.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sr.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ss.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "st.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sv.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sx.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sy.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "sz.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ta.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "tc.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "td.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "tf.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "tg.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "th.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "tj.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "tk.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "tl.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "tm.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "tn.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "to.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "tr.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "tt.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "tv.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "tw.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "tz.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ua.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ug.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "um.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "un.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "us.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "uy.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "uz.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "va.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "vc.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ve.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "vg.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "vi.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "vn.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "vu.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "wf.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ws.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "xk.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "xx.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ye.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "yt.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "za.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "zm.svg"
+                  },
+                  {
+                    "type": "file",
+                    "name": "zw.svg"
+                  }
+                ]
+              }
+            ]
           },
           {
-            "type": "file",
-            "name": "swan"
+            "type": "folder",
+            "name": "environments",
+            "children": [
+              {
+                "type": "file",
+                "name": "environment.prod.ts"
+              },
+              {
+                "type": "file",
+                "name": "environment.ts"
+              }
+            ]
           }
         ]
       }
